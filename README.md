@@ -1,33 +1,42 @@
-# 🎙️ Voice Assistant using Python
+# 🎙️ Voice Assistant
 
-A simple **Voice Assistant** built using **Python** that can understand voice commands and perform different tasks such as searching the web, reading information, and converting speech to text.
-
-This project demonstrates the use of **Speech Recognition** and **Text-to-Speech** technologies to build a basic AI assistant similar to Alexa or Google Assistant.
+A Python-based Voice Assistant that interacts with users through voice commands, performs tasks, and provides real-time responses using speech recognition and text-to-speech technologies.
 
 ---
 
-## 🚀 Features
+## 🚀 Project Overview
 
-- 🎤 Voice Command Recognition  
-- 🔊 Text-to-Speech Response  
-- 🌐 Search anything on Google  
-- 📚 Search information on Wikipedia  
-- 📄 Read MS Word (.docx) files  
-- 📖 Read PDF books (Audio Book Feature)  
-- 📝 Convert Speech to Text  
+The **Voice Assistant** is an AI-powered application designed to simulate human-like interaction using voice commands. It allows users to control system operations, retrieve information, and automate tasks hands-free.
 
-These features allow the assistant to interact with the user through voice and perform useful daily tasks. :contentReference[oaicite:0]{index=0}
+Voice assistants use technologies like speech recognition and natural language processing to understand user input and respond accordingly. :contentReference[oaicite:0]{index=0}  
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Features
 
-- **Python**
-- SpeechRecognition
-- Pyttsx3 (Text-to-Speech)
-- Wikipedia API
-- Webbrowser
-- PyWhatKit
+- 🎤 Voice Recognition (Speech-to-Text)
+- 🔊 Text-to-Speech Response
+- 🌐 Open Websites (Google, YouTube, etc.)
+- ⏰ Tell Time and Date
+- 📚 Fetch Information from Wikipedia
+- 😂 Tell Jokes / Fun Interactions
+- 🎵 Play Music
+- 🖥️ Perform Basic System Tasks
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python  
+- **Libraries Used:**
+  - `speech_recognition` – Convert voice to text  
+  - `pyttsx3` – Text-to-speech engine  
+  - `datetime` – Date & time operations  
+  - `webbrowser` – Open websites  
+  - `wikipedia` – Fetch information  
+  - `pywhatkit` – Play YouTube videos  
+
+These tools are commonly used in building voice-enabled applications. :contentReference[oaicite:1]{index=1}  
 
 ---
 
